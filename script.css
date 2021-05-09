@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+h1{
+    margin: 20px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    margin: 40px;
+    position: relative;
+    background-color: #2b01e4;
+    border: 2px solid rgb(223, 5, 5);
+    height: 505px;
+    width: 505px; 
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.buttons {
+    border: none;
+    border-radius: 20px;
+    background-color:  #f09206;
+    height: 42px;
+    width: 40%;
+    font-weight: 700;
+}
